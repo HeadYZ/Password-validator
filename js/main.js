@@ -33,7 +33,7 @@ const checkForm = input => {
 
 const checkLength = (input, min) => {
 	if (input.value.length < min) {
-		showError(input, `${input.previousElementSibling.innerText.slice(0, -1)} składa się z min. ${min} znaków.`)
+		showError(input, `${input.previousElementSibling.innerText.slice(0, -1)} musi składać się z min. ${min} znaków.`)
 	}
 }
 
